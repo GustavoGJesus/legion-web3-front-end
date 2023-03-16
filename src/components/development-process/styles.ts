@@ -30,6 +30,10 @@ export const CardContainer = styled.div`
     /* padding: 20px; */
     gap: 90px;
   }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 export const Ul = styled.ul`
