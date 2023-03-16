@@ -23,7 +23,7 @@ export const Title = styled.h3`
   font-size: 70px;
 
   @media (max-width: 773px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 `;
 
@@ -39,7 +39,7 @@ export const ContainerForm = styled.div`
 
   @media (max-width: 773px) {
     padding: 20px;
-    width: 200px;
+    width: 250px;
   }
 `;
 
@@ -51,7 +51,7 @@ export const ContentForm = styled.div`
 
   @media (max-width: 773px) {
     /* padding: 20px; */
-    width: 200px;
+    width: 250px;
   }
 `;
 
