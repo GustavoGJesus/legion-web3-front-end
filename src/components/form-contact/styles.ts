@@ -21,6 +21,10 @@ export const Title = styled.h3`
   -webkit-background-clip: text;
   color: transparent;
   font-size: 70px;
+
+  @media (max-width: 773px) {
+    font-size: 50px;
+  }
 `;
 
 export const ContainerForm = styled.div`
@@ -32,6 +36,11 @@ export const ContainerForm = styled.div`
   border-radius: 20px;
   padding: 40px;
   margin-top: 50px;
+
+  @media (max-width: 773px) {
+    padding: 20px;
+    width: 200px;
+  }
 `;
 
 export const ContentForm = styled.div`
@@ -39,6 +48,11 @@ export const ContentForm = styled.div`
   flex-direction: column;
   width: 400px;
   gap: 30px;
+
+  @media (max-width: 773px) {
+    /* padding: 20px; */
+    width: 200px;
+  }
 `;
 
 export const Input = styled.input`

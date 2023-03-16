@@ -6,6 +6,10 @@ export const CardWrapper = styled.div`
 
   width: 100%;
   height: 400px;
+
+  @media (max-width: 773px) {
+    flex-direction: column;
+  }
 `;
 
 export const CardContent = styled.div`

@@ -8,6 +8,10 @@ export const DevelopmentProcessContainer = styled.div`
 export const Title = styled.h1`
   text-align: center;
   font-size: 50px;
+
+  @media (max-width: 773px) {
+    font-size: 30px;
+  }
 `;
 
 export const CardContainer = styled.div`
@@ -16,6 +20,10 @@ export const CardContainer = styled.div`
   text-align: center;
 
   margin-top: 70px;
+
+  @media (max-width: 773px) {
+    flex-direction: column;
+  }
 `;
 
 export const Ul = styled.ul`
