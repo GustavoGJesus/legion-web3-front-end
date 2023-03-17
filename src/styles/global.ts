@@ -15,8 +15,8 @@ export const GlobalStyle = createGlobalStyle`
 
     body{
          background: #000000;
-
-         overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+         /* overflow-x: hidden; */
     }
 
 `;
