@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
-export const Container= styled.div`
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-    align-items: center;
+export const Container = styled.div`
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  align-items: center;
 
-    /* text-align: center; */
+  @media (max-width: 773px) {
+    margin-top: 20px;
+  }
+
+  /* text-align: center; */
 `;
 
 export const Paragraph = styled.p`

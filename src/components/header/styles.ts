@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.nav`
-  padding: 30px 50px;
+  padding: 30px 50px 30px 50px;
 
   @media (max-width: 600px) {
     padding: 10px 20px;

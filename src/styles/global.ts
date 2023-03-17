@@ -1,11 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-    /* :root{
-        |#5B2B76
-        #000000
-    } */
-
     *{
         margin: 0;
         padding: 0;
@@ -14,10 +9,14 @@ export const GlobalStyle = createGlobalStyle`
 
         /* background: #000000; */
         color: #F0F0F0;
+
+        /* overflow-x: hidden; */
     }
 
     body{
          background: #000000;
+
+         overflow-x: hidden;
     }
 
 `;

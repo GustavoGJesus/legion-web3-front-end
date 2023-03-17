@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const DevelopmentProcessContainer = styled.div`
   width: 100%;
   margin-top: 150px;
+
+  @media (max-width: 773px) {
+    margin-top: 100px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -23,12 +27,12 @@ export const CardContainer = styled.div`
 
   @media (max-width: 773px) {
     flex-direction: column;
-    gap: 40px;
+    gap: 5px;
   }
 
   @media (max-width: 360px) {
     /* padding: 20px; */
-    gap: 90px;
+    gap: 5px;
   }
 
   @media (max-width: 1000px) {
