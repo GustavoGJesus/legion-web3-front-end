@@ -47,8 +47,11 @@ export const Ul = styled.ul`
   display: flex;
   flex-direction: column;
   list-style: none;
+
+  text-align: left;
 `;
 
 export const Li = styled.li`
   margin-top: 10px;
+  font-size: 15px;
 `;

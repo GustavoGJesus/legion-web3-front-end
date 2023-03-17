@@ -35,7 +35,8 @@ export const ContainerForm = styled.div`
   display: flex;
   flex-direction: column;
   width: auto;
-  background: #141414;
+  /* background: #141414; */
+  border: 1px solid #f7f7f7;
   height: auto;
   border-radius: 20px;
   padding: 40px;

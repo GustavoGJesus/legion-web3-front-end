@@ -29,4 +29,6 @@ export const ContainerSocialMedias = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
+
+  cursor: pointer;
 `;

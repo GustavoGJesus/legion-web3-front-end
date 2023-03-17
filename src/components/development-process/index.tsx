@@ -4,46 +4,30 @@ import { CardContainer, DevelopmentProcessContainer, Title, Ul, Li } from "./sty
 export function DevelopmentProcess(){
   return (
     <DevelopmentProcessContainer>
-      <Title>Development Steps</Title>
+      <Title>Services</Title>
 
       <CardContainer>
-        <Cards title="Idea">
+        <Cards title="Design">
           <Ul>
-            <Li>Primeiro item da lista</Li>
-            <Li>Segundo item da lista</Li>
-            <Li>Terceiro item da lista</Li>
-            <Li>Quarto item da lista</Li>
-            <Li>Quinto item da lista</Li>
+            <Li>- Visual Indentity</Li>
+            <Li>- UX/UI Design</Li>
+            <Li>- Dapps product design</Li>
           </Ul>
         </Cards>
 
-        <Cards title="Conception">
+        <Cards title="Web3 Development">
           <Ul>
-            <Li>Primeiro item da lista</Li>
-            <Li>Segundo item da lista</Li>
-            <Li>Terceiro item da lista</Li>
-            <Li>Quarto item da lista</Li>
-            <Li>Quinto item da lista</Li>
+            <Li>- Smart Contracts</Li>
+            <Li>- Dapps</Li>
+            <Li>- Integrate with Blockchain</Li>
           </Ul>
         </Cards>
 
-        <Cards title="Development">
+        <Cards title="NFT's">
           <Ul>
-            <Li>Primeiro item da lista</Li>
-            <Li>Segundo item da lista</Li>
-            <Li>Terceiro item da lista</Li>
-            <Li>Quarto item da lista</Li>
-            <Li>Quinto item da lista</Li>
-          </Ul>
-        </Cards>
-
-        <Cards title="Improvement">
-          <Ul>
-            <Li>Primeiro item da lista</Li>
-            <Li>Segundo item da lista</Li>
-            <Li>Terceiro item da lista</Li>
-            <Li>Quarto item da lista</Li>
-            <Li>Quinto item da lista</Li>
+            <Li>- Authenticity</Li>
+            <Li>- Security</Li>
+            <Li>- Immutability</Li>
           </Ul>
         </Cards>
       </CardContainer>
