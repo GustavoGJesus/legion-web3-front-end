@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const MainWarraper = styled.div`
-    padding: 90px 50px;
+  padding: 90px 50px;
 `;
 
 export const MainContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* width: 70%; */
 `;
 
 export const Title = styled.p`
@@ -38,6 +37,19 @@ export const ContainerCryptos = styled.div`
     @media (max-width: 773px){
         flex-direction: column;
     }
+`;
+
+export const ContainerDevelopmentProcess = styled.div`
+  /* margin-left: 90px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+  @media (max-width: 773px) {
+    margin-left: 0px;
+  }
 `;
 
 export const ContentCyptos = styled.div`

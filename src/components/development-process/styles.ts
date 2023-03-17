@@ -22,6 +22,9 @@ export const CardContainer = styled.div`
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: center;
+  gap: 40px;
+  /* width: 100%; */
 
   margin-top: 70px;
 

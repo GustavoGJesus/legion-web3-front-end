@@ -1,4 +1,4 @@
-import { ContainerCryptos, ContentCyptos, Description, MainContent, MainWarraper, Paragraph, Title } from "./styles";
+import { ContainerCryptos, ContainerDevelopmentProcess, ContentCyptos, Description, MainContent, MainWarraper, Paragraph, Title } from "./styles";
 
 import EthIcon from '../../assets/ethereum.png';
 import PolygonIcon from "../../assets/polygon.png";
@@ -34,9 +34,9 @@ export function Main(){
             </ContentCyptos>
           </ContainerCryptos>
 
-          <div>
+          <ContainerDevelopmentProcess>
             <DevelopmentProcess />
-          </div>
+          </ContainerDevelopmentProcess>
 
           <ContactForm />
         </MainContent>

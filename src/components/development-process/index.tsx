@@ -4,12 +4,10 @@ import { CardContainer, DevelopmentProcessContainer, Title, Ul, Li } from "./sty
 export function DevelopmentProcess(){
   return (
     <DevelopmentProcessContainer>
-      <Title>
-        Development Steps
-      </Title>
+      <Title>Development Steps</Title>
 
       <CardContainer>
-        <Cards title="Design">
+        <Cards title="Idea">
           <Ul>
             <Li>Primeiro item da lista</Li>
             <Li>Segundo item da lista</Li>
@@ -19,7 +17,7 @@ export function DevelopmentProcess(){
           </Ul>
         </Cards>
 
-        <Cards title="Design">
+        <Cards title="Conception">
           <Ul>
             <Li>Primeiro item da lista</Li>
             <Li>Segundo item da lista</Li>
@@ -28,7 +26,18 @@ export function DevelopmentProcess(){
             <Li>Quinto item da lista</Li>
           </Ul>
         </Cards>
-        <Cards title="Design">
+
+        <Cards title="Development">
+          <Ul>
+            <Li>Primeiro item da lista</Li>
+            <Li>Segundo item da lista</Li>
+            <Li>Terceiro item da lista</Li>
+            <Li>Quarto item da lista</Li>
+            <Li>Quinto item da lista</Li>
+          </Ul>
+        </Cards>
+
+        <Cards title="Improvement">
           <Ul>
             <Li>Primeiro item da lista</Li>
             <Li>Segundo item da lista</Li>
