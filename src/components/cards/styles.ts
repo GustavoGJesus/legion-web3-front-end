@@ -4,6 +4,7 @@ export const CardWrapper = styled.div`
   display: flex;
   /* width: 600px  !important; */
   /* height: 400px; */
+  /* gap: 50px; */
 `;
 
 export const CardContent = styled.div`
@@ -14,9 +15,10 @@ export const CardContent = styled.div`
   border-radius: 20px;
   padding: 30px 30px;
   background: #141414;
+  gap: 20px;
 
   @media (max-width: 1000px) {
-    padding: 40px 40px;
+    padding: 20px 20px;
   }
 `;
 
