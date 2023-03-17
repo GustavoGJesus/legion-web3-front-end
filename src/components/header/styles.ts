@@ -20,7 +20,6 @@ export const Button = styled.button`
   border-radius: 8px;
   border: 0;
 
-  margin-top: -25px;
   font-weight: 400;
   background: #f0f0f0;
   

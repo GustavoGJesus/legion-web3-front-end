@@ -6,6 +6,7 @@ import SolanaIcon from "../../assets/solana.png"
 import { DevelopmentProcess } from "../development-process";
 import { ContactForm } from "../form-contact";
 import { motion } from "framer-motion";
+import { MintNft } from "../mint-nft";
 
 export function Main(){
     return (
@@ -40,6 +41,8 @@ export function Main(){
                 <Paragraph>Solana</Paragraph>
               </ContentCyptos>
             </ContainerCryptos>
+
+            <MintNft />
 
             <ContainerDevelopmentProcess>
               <DevelopmentProcess />
